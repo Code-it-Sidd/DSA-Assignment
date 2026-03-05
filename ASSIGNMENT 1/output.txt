@@ -1,0 +1,47 @@
+==================================================
+AERT TOOLKIT TEST RESULTS
+==================================================
+Generated: 2026-03-05 22:52:30
+
+1. STACK TESTS
+--------------------
+Stack size: 5
+Popped: [5, 4, 3, 2, 1]
+
+2. FACTORIAL TESTS
+--------------------
+fact(0) = 1
+fact(1) = 1
+fact(5) = 120
+fact(10) = 3628800
+
+3. FIBONACCI TESTS
+--------------------
+fib(0) = 0
+fib(1) = 1
+fib(5) = 5
+fib(8) = 21
+
+4. TOWER OF HANOI n=3
+--------------------
+1. Move disk 1 from A to C
+2. Move disk 2 from A to B
+3. Move disk 1 from C to B
+4. Move disk 3 from A to C
+5. Move disk 1 from B to A
+6. Move disk 2 from B to C
+7. Move disk 1 from A to C
+
+5. BINARY SEARCH
+--------------------
+7: index 6 FOUND
+15: index 14 FOUND
+20: index 19 FOUND
+0: index -1 NOT FOUND
+
+COMPLEXITY:
+Stack: O(1)
+Factorial: O(n)
+Fib: O(2^n) - SLOW!
+Tower: O(2^n)
+Binary Search: O(log n) - BEST!
